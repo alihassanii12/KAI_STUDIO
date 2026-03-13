@@ -602,7 +602,7 @@ export default function StackPage() {
           <div style={{fontFamily:"'Bebas Neue',sans-serif",fontSize:"clamp(24px,4vw,52px)",lineHeight:.9,color:"var(--ink)",letterSpacing:"0.01em"}}>READY TO BUILD<br/><span style={{color:"var(--lime)"}}>SOMETHING GREAT?</span></div>
         </div>
         <div className="sk-cta-btns">
-          <Link href="/#contact" onMouseEnter={ce} onMouseLeave={cl}
+          <Link href="/contact" onMouseEnter={ce} onMouseLeave={cl}
             style={{fontFamily:"'DM Sans',sans-serif",fontSize:12,fontWeight:600,letterSpacing:"0.06em",textTransform:"uppercase",padding:"13px 28px",background:"var(--lime)",color:"#080909",border:"none",borderRadius:100,cursor:"none",textDecoration:"none",display:"flex",alignItems:"center",gap:8,transition:"opacity .2s"}}>
             联系我 · Get In Touch ↗
           </Link>
